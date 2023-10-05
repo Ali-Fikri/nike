@@ -1,6 +1,6 @@
 interface Props {
   label: string;
-  iconUrl: string;
+  iconUrl?: string;
   backgroundColor?: string;
   textColor?: string;
   borderColor?: string;

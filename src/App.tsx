@@ -1,7 +1,7 @@
 import {
   Hero, 
   PopularProducts,
-  // SuperQuality,
+  SuperQuality,
   // Services,
   // SpecialOffer,
   // CustomerReviews,
@@ -20,6 +20,10 @@ const App = () => {
       <section className="padding">
         <PopularProducts />
       </section>
+      <section className="padding">
+        <SuperQuality />
+      </section>
+      
     </main>
   );
 };
