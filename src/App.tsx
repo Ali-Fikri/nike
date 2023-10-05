@@ -2,8 +2,8 @@ import {
   Hero, 
   PopularProducts,
   SuperQuality,
-  // Services,
-  // SpecialOffer,
+  Services,
+  SpecialOffer,
   // CustomerReviews,
   // Subscribe,
 } from "./sections";
@@ -22,6 +22,12 @@ const App = () => {
       </section>
       <section className="padding">
         <SuperQuality />
+      </section>
+      <section className="padding">
+        <Services />
+      </section>
+      <section className="padding">
+        <SpecialOffer />
       </section>
       
     </main>

@@ -17,7 +17,7 @@ const Button = ({
 }: Props) => {
   return (
     <button
-      className={`flex justify-center items-center gap-4 py-4 px-7 font-montserrat text-lg rounded-full
+      className={`flex justify-center items-center gap-4 py-4 px-7 font-montserrat text-lg rounded-full border
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`

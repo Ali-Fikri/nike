@@ -3,9 +3,9 @@ import { Button } from "../components";
 
 const SuperQuality = () => {
   return (
-    <section className="max-container flex justify-center items-center gap-8">
+    <section className="max-container flex justify-center items-center max-lg:flex-col gap-8">
       <div className="flex-1 flex flex-col gap-4">
-        <h2 className="font-palanquin font-bold text-4xl lg:max-w-lg">
+        <h2 className="section-heading lg:max-w-lg">
           We Provide You <span className="text-coral-red">Super Quality</span>{" "}
           Shoes
         </h2>
@@ -20,7 +20,7 @@ const SuperQuality = () => {
           <Button label="View details" />
         </div>
       </div>
-      <div className="flex-1 flex justify-center items-center">
+      <div className="flex-1 flex justify-center items-center max-lg:mt-10">
         <img src={shoe8} alt="Shoe" />
       </div>
     </section>
