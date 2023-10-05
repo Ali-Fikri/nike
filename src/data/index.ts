@@ -22,14 +22,14 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
-export const navLinks = [
+export const navLinks: { href: string; label: string }[] = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+export const shoes: { thumbnail: string; bigShoe: string }[] = [
   {
     thumbnail: thumbnailShoe1,
     bigShoe: bigShoe1,
@@ -44,13 +44,13 @@ export const shoes = [
   },
 ];
 
-export const statistics = [
+export const statistics: { value: string; label: string }[] = [
   { value: "1k+", label: "Brands" },
   { value: "500+", label: "Shops" },
   { value: "250k+", label: "Customers" },
 ];
 
-export const products = [
+export const products: { imgURL: string; name: string; price: string }[] = [
   {
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
