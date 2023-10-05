@@ -50,26 +50,40 @@ export const statistics: { value: string; label: string }[] = [
   { value: "250k+", label: "Customers" },
 ];
 
-export const products: { imgURL: string; name: string; price: string }[] = [
+export const products: {
+  imgURL: string;
+  name: string;
+  price: string;
+  rate: number;
+  id: string;
+}[] = [
   {
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
     price: "$200.20",
+    rate: 4.5,
+    id: crypto.randomUUID(),
   },
   {
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
     price: "$210.20",
+    rate: 4.5,
+    id: crypto.randomUUID(),
   },
   {
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
     price: "$220.20",
+    rate: 4.4,
+    id: crypto.randomUUID(),
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
     price: "$230.20",
+    rate: 4.7,
+    id: crypto.randomUUID(),
   },
 ];
 

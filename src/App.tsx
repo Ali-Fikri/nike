@@ -1,6 +1,6 @@
 import {
-  Hero,
-  // PopularProducts,
+  Hero, 
+  PopularProducts,
   // SuperQuality,
   // Services,
   // SpecialOffer,
@@ -16,6 +16,9 @@ const App = () => {
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
       </section>
     </main>
   );
