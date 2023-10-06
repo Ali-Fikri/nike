@@ -4,7 +4,7 @@ import {
   SuperQuality,
   Services,
   SpecialOffer,
-  // CustomerReviews,
+  CustomerReviews,
   // Subscribe,
 } from "./sections";
 
@@ -28,6 +28,9 @@ const App = () => {
       </section>
       <section className="padding">
         <SpecialOffer />
+      </section>
+      <section className="padding bg-pale-blue">
+        <CustomerReviews />
       </section>
       
     </main>
