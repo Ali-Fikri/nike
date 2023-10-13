@@ -138,26 +138,29 @@ export const reviews: {
   },
 ];
 
-export const footerLinks = [
+export const footerLinks: {
+  title: string;
+  links: { name: string; link: string }[];
+}[] = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Air Force 1", link: "#" },
+      { name: "Air Max 1", link: "#" },
+      { name: "Air Jordan 1", link: "#" },
+      { name: "Air Force 2", link: "#" },
+      { name: "Nike Waffle Racer", link: "#" },
+      { name: "Nike Cortez", link: "#" },
     ],
   },
   {
     title: "Help",
     links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "About us", link: "#" },
+      { name: "FAQs", link: "#" },
+      { name: "How it works", link: "#" },
+      { name: "Privacy policy", link: "#" },
+      { name: "Payment policy", link: "#" },
     ],
   },
   {
@@ -169,7 +172,7 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
+export const socialMedia: { src: string; alt: string }[] = [
   { src: facebook, alt: "facebook logo" },
   { src: twitter, alt: "twitter logo" },
   { src: instagram, alt: "instagram logo" },
